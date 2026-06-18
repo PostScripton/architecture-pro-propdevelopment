@@ -1,0 +1,160 @@
+[
+  {
+    "reasons": [
+      "secret-access"
+    ],
+    "user": "minikube-user",
+    "impersonatedUser": "system:serviceaccount:secure-ops:monitoring",
+    "verb": "get",
+    "objectRef": {
+      "resource": "secrets",
+      "namespace": "secure-ops",
+      "name": "app-credentials",
+      "apiVersion": "v1"
+    },
+    "responseStatus": {
+      "metadata": {},
+      "status": "Failure",
+      "message": "secrets \"app-credentials\" is forbidden: User \"system:serviceaccount:secure-ops:monitoring\" cannot get resource \"secrets\" in API group \"\" in the namespace \"secure-ops\"",
+      "reason": "Forbidden",
+      "details": {
+        "name": "app-credentials",
+        "kind": "secrets"
+      },
+      "code": 403
+    },
+    "requestReceivedTimestamp": "2026-06-17T17:09:44.342830Z",
+    "sourceIPs": [
+      "192.168.49.1"
+    ],
+    "auditID": "4e076d61-fa07-40e8-896c-28b5f4da6c10"
+  },
+  {
+    "reasons": [
+      "secret-access"
+    ],
+    "user": "minikube-user",
+    "impersonatedUser": "system:serviceaccount:secure-ops:monitoring",
+    "verb": "list",
+    "objectRef": {
+      "resource": "secrets",
+      "namespace": "kube-system",
+      "apiVersion": "v1"
+    },
+    "responseStatus": {
+      "metadata": {},
+      "status": "Failure",
+      "message": "secrets is forbidden: User \"system:serviceaccount:secure-ops:monitoring\" cannot list resource \"secrets\" in API group \"\" in the namespace \"kube-system\"",
+      "reason": "Forbidden",
+      "details": {
+        "kind": "secrets"
+      },
+      "code": 403
+    },
+    "requestReceivedTimestamp": "2026-06-17T17:09:44.371591Z",
+    "sourceIPs": [
+      "192.168.49.1"
+    ],
+    "auditID": "212317e7-1c8f-4c85-9125-5e4557547393"
+  },
+  {
+    "reasons": [
+      "privileged-pod"
+    ],
+    "user": "minikube-user",
+    "impersonatedUser": null,
+    "verb": "create",
+    "objectRef": {
+      "resource": "pods",
+      "namespace": "secure-ops",
+      "name": "privileged-pod",
+      "apiVersion": "v1"
+    },
+    "responseStatus": {
+      "metadata": {},
+      "code": 201
+    },
+    "requestReceivedTimestamp": "2026-06-17T17:09:44.420539Z",
+    "sourceIPs": [
+      "192.168.49.1"
+    ],
+    "auditID": "ef2d3872-5074-415a-b714-0f96c902952f"
+  },
+  {
+    "reasons": [
+      "pod-exec"
+    ],
+    "user": "minikube-user",
+    "impersonatedUser": null,
+    "verb": "get",
+    "objectRef": {
+      "resource": "pods",
+      "namespace": "kube-system",
+      "name": "coredns-7d764666f9-xqr9p",
+      "apiVersion": "v1",
+      "subresource": "exec"
+    },
+    "responseStatus": {
+      "metadata": {},
+      "code": 101
+    },
+    "requestReceivedTimestamp": "2026-06-17T17:09:44.497758Z",
+    "sourceIPs": [
+      "192.168.49.1"
+    ],
+    "auditID": "e54da27f-770c-47c9-ba0a-57fd7ac4ec1b"
+  },
+  {
+    "reasons": [
+      "audit-policy-change"
+    ],
+    "user": "minikube-user",
+    "impersonatedUser": "admin",
+    "verb": "delete",
+    "objectRef": {
+      "resource": "configmaps",
+      "namespace": "kube-system",
+      "name": "audit-policy",
+      "apiVersion": "v1"
+    },
+    "responseStatus": {
+      "metadata": {},
+      "status": "Success",
+      "details": {
+        "name": "audit-policy",
+        "kind": "configmaps",
+        "uid": "08ca7252-1304-42d3-ba63-b4fff03200e6"
+      },
+      "code": 200
+    },
+    "requestReceivedTimestamp": "2026-06-17T17:09:44.566625Z",
+    "sourceIPs": [
+      "192.168.49.1"
+    ],
+    "auditID": "eccb5230-59d8-49bd-a60a-8480e7af11dc"
+  },
+  {
+    "reasons": [
+      "cluster-admin-binding"
+    ],
+    "user": "minikube-user",
+    "impersonatedUser": null,
+    "verb": "create",
+    "objectRef": {
+      "resource": "rolebindings",
+      "namespace": "secure-ops",
+      "name": "escalate-binding",
+      "apiGroup": "rbac.authorization.k8s.io",
+      "apiVersion": "v1"
+    },
+    "responseStatus": {
+      "metadata": {},
+      "code": 201
+    },
+    "requestReceivedTimestamp": "2026-06-17T17:09:44.608761Z",
+    "sourceIPs": [
+      "192.168.49.1"
+    ],
+    "auditID": "eb480e45-e996-41cd-9f51-6bcc7eb80002"
+  }
+]
