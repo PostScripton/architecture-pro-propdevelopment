@@ -1,0 +1,262 @@
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1000" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- CENTER -->
+    <mxCell id="2" value="Безопасность данных" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e4d78;strokeColor=#1e4d78;fontColor=#ffffff;fontStyle=1;fontSize=16;arcSize=50;" vertex="1" parent="1">
+      <mxGeometry x="590" y="20" width="240" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- CATEGORIES -->
+    <mxCell id="3" value="Публичные данные" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+      <mxGeometry x="20" y="140" width="200" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="4" value="Внутренние данные" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+      <mxGeometry x="300" y="140" width="200" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="5" value="Конфиденциальные данные" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+      <mxGeometry x="850" y="140" width="240" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="6" value="Секретные данные" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+      <mxGeometry x="1180" y="140" width="200" height="50" as="geometry" />
+    </mxCell>
+
+    <!-- ПУБЛИЧНЫЕ: данные -->
+    <mxCell id="7" value="Каталог объектов, цены, планировки, информация о ЖК, новости о ремонтах" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="10" y="240" width="230" height="70" as="geometry" />
+    </mxCell>
+
+    <!-- ПУБЛИЧНЫЕ: риск 1 -->
+    <mxCell id="8" value="Искажение данных&#xa;[Значительный]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="10" y="330" width="230" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="9" value="Ложные данные об объектах снижают доверие клиентов и влекут претензии" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#cccccc;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="10" y="395" width="230" height="55" as="geometry" />
+    </mxCell>
+
+    <!-- ПУБЛИЧНЫЕ: риск 2 -->
+    <mxCell id="10" value="Некачественные данные&#xa;[Значительный]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="10" y="465" width="230" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="11" value="Несколько точек ввода без координации создают устаревшие и противоречивые данные" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#cccccc;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="10" y="530" width="230" height="55" as="geometry" />
+    </mxCell>
+
+    <!-- ПУБЛИЧНЫЕ: риск 3 -->
+    <mxCell id="12" value="Обесценивание данных&#xa;[Незначительный]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="10" y="600" width="230" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="13" value="Устаревшие публичные данные снижают ценность для маркетинга, но не несут прямого ущерба" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#cccccc;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="10" y="665" width="230" height="55" as="geometry" />
+    </mxCell>
+
+    <!-- ВНУТРЕННИЕ: данные -->
+    <mxCell id="14" value="Данные сотрудников, API-контракты с партнёрами, конфигурации систем, внутренняя отчётность" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="290" y="240" width="230" height="70" as="geometry" />
+    </mxCell>
+
+    <!-- ВНУТРЕННИЕ: риск 1 -->
+    <mxCell id="15" value="Утечка данных&#xa;[Значительный]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="290" y="330" width="230" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="16" value="API-контракты с чрезмерными правами доступа раскрывают уязвимости партнёрских интеграций" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#cccccc;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="290" y="395" width="230" height="55" as="geometry" />
+    </mxCell>
+
+    <!-- ВНУТРЕННИЕ: риск 2 -->
+    <mxCell id="17" value="Потеря данных&#xa;[Значительный]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="290" y="465" width="230" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="18" value="Потеря конфигураций нарушает работу систем и существенно замедляет восстановление" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#cccccc;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="290" y="530" width="230" height="55" as="geometry" />
+    </mxCell>
+
+    <!-- ВНУТРЕННИЕ: риск 3 -->
+    <mxCell id="19" value="Искажение данных&#xa;[Значительный]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="290" y="600" width="230" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="20" value="Некорректные конфигурации могут одновременно нарушить бизнес-процессы нескольких команд" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#cccccc;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="290" y="665" width="230" height="55" as="geometry" />
+    </mxCell>
+
+    <!-- КОНФИДЕНЦИАЛЬНЫЕ: данные -->
+    <mxCell id="21" value="ПД клиентов (ФИО, тел., email), ПД собственников, данные бронирований и онлайн-сделок" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="840" y="240" width="260" height="70" as="geometry" />
+    </mxCell>
+
+    <!-- КОНФИДЕНЦИАЛЬНЫЕ: риск 1 -->
+    <mxCell id="22" value="Утечка данных&#xa;[Критический]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="840" y="330" width="260" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="23" value="Нарушение 152-ФЗ и репутационный ущерб; утечка у конкурента подтверждает актуальность угрозы" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#cccccc;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="840" y="395" width="260" height="55" as="geometry" />
+    </mxCell>
+
+    <!-- КОНФИДЕНЦИАЛЬНЫЕ: риск 2 -->
+    <mxCell id="24" value="Искажение данных&#xa;[Критический]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="840" y="465" width="260" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="25" value="Отображение данных чужого клиента в личном кабинете - зафиксированная активная проблема" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#cccccc;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="840" y="530" width="260" height="55" as="geometry" />
+    </mxCell>
+
+    <!-- КОНФИДЕНЦИАЛЬНЫЕ: риск 3 -->
+    <mxCell id="26" value="Потеря данных&#xa;[Критический]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="840" y="600" width="260" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="27" value="Потеря данных сделок влечёт юридические и финансовые последствия, нарушает операционную деятельность" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#cccccc;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="840" y="665" width="260" height="55" as="geometry" />
+    </mxCell>
+
+    <!-- КОНФИДЕНЦИАЛЬНЫЕ: риск 4 -->
+    <mxCell id="28" value="Некачественные данные&#xa;[Значительный]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="840" y="735" width="260" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="29" value="Несколько точек регистрации без координации порождают дублирование данных клиентов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#cccccc;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="840" y="800" width="260" height="55" as="geometry" />
+    </mxCell>
+
+    <!-- СЕКРЕТНЫЕ: данные -->
+    <mxCell id="30" value="Учётные данные БД и API-ключи, финансовые транзакции, юр. документы сделок, данные интеграций с госорганами" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1170" y="240" width="230" height="70" as="geometry" />
+    </mxCell>
+
+    <!-- СЕКРЕТНЫЕ: риск 1 -->
+    <mxCell id="31" value="Утечка данных&#xa;[Критический]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1170" y="330" width="230" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="32" value="Компрометация учётных данных открывает полный доступ ко всем системам компании" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#cccccc;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="1170" y="395" width="230" height="55" as="geometry" />
+    </mxCell>
+
+    <!-- СЕКРЕТНЫЕ: риск 2 -->
+    <mxCell id="33" value="Потеря данных&#xa;[Критический]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1170" y="465" width="230" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="34" value="Потеря транзакционных и юридических данных ведёт к финансовым потерям и судебным искам" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#cccccc;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="1170" y="530" width="230" height="55" as="geometry" />
+    </mxCell>
+
+    <!-- СЕКРЕТНЫЕ: риск 3 -->
+    <mxCell id="35" value="Искажение данных&#xa;[Критический]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1170" y="600" width="230" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="36" value="Подмена финансовых данных сделок создаёт прямые возможности для мошенничества" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#cccccc;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="1170" y="665" width="230" height="55" as="geometry" />
+    </mxCell>
+
+    <!-- EDGES: center -> categories -->
+    <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="2" target="3" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="2" target="4" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="2" target="5" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="2" target="6" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- EDGES: Публичные -> children -->
+    <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="3" target="7" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="3" target="8" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="3" target="10" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="3" target="12" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="8" target="9" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="10" target="11" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="12" target="13" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- EDGES: Внутренние -> children -->
+    <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="4" target="14" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="4" target="15" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="4" target="17" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="4" target="19" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="15" target="16" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="17" target="18" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="19" target="20" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- EDGES: Конфиденциальные -> children -->
+    <mxCell id="e19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="5" target="21" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="5" target="22" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="5" target="24" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e22" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="5" target="26" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e23" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="5" target="28" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="22" target="23" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e25" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="24" target="25" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="26" target="27" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e27" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="28" target="29" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- EDGES: Секретные -> children -->
+    <mxCell id="e28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="6" target="30" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e29" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="6" target="31" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="6" target="33" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="6" target="35" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e32" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="31" target="32" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e33" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="33" target="34" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e34" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="35" target="36" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>
